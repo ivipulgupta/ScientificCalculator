@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+    <script src="calc.js"></script>
+    <title>Scientific Calculator</title>
+</head>
+
+<body>
+    <h1>Scientific Calculator</h1>
+    <form name="calculator">
+        <table>
+            <tr>
+                <td colspan="4"> <input type="text" name="result" class="result"> </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <button type="button" value="C" onclick="remv()"> C </button>
+                </td>
+                <td><button type="button" value="Pi" onclick="pi()">pi</button> </td>
+                <td><button type="button" value="exp" onclick="exp()">exp</button> </td>
+
+            </tr>
+
+            <tr>
+
+                <td><button type="button" value="sin" onclick="sin()"> sin </button> </td>
+                <td><button type="button" value="cos" onclick="cos()"> cos </button> </td>
+                <td><button type="button" value="tan" onclick="tan()"> tan </button> </td>
+                <td><button type="button" value="log" onclick="log()"> log </button> </td>
+
+            </tr>
+
+            <tr>
+                <td><button type="button" value="1" onclick="number(value)"> 1 </button> </td>
+                <td><button type="button" value="2" onclick="number(value)"> 2 </button> </td>
+                <td><button type="button" value="3" onclick="number(value)"> 3 </button> </td>
+                <td><button type="button" value="BACKSPC" onclick="BACKSPC()"> Back</button> </td>
+            </tr>
+
+            <tr>
+                <td><button type="button" value="4" onclick="number(value)"> 4 </button> </td>
+                <td><button type="button" value="5" onclick="number(value)"> 5 </button> </td>
+                <td><button type="button" value="6" onclick="number(value)"> 6 </button> </td>
+                <td><button type="button" value="-" onclick="number(value)"> - </button> </td>
+            </tr>
+
+            <tr>
+                <td><button type="button" value="7" onclick="number(value)"> 7 </button> </td>
+                <td><button type="button" value="8" onclick="number(value)"> 8 </button> </td>
+                <td><button type="button" value="9" onclick="number(value)"> 9 </button> </td>
+                <td><button type="button" value="/" onclick="number(value)"> / </button> </td>
+            </tr>
+
+            <tr>
+                <td><button type="button" value="." onclick="number(value)"> . </button> </td>
+                <td><button type="button" value="0" onclick="number(value)"> 0 </button> </td>
+                <td><button type="button" value="*" onclick="number(value)"> * </button> </td>
+                <td><button type="button" value="%" onclick="number(value)"> % </button> </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"> <button type="button" value="=" onclick="equal()">=</button> </td>
+                <td><button type="button" value="+" onclick="number(value)"> + </button> </td>
+                <td><button type="button" value="sqrt" onclick="sqrt()">sqrt </button> </td>
+            </tr>
+
+        </table>
+    </form>
+<footer>
+   <hr>
+    &copy; Copyright 2021 | Vipul Gupta
+</footer>
+
+</body>
+
+</html>
